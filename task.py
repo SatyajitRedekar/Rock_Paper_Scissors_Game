@@ -18,8 +18,7 @@ while True :
         print(asset.paper)
     elif (human_choice == "scissors" or human_choice == "r") or human_choice == "s" :
         print(asset.scissors)
-
-    if human_choice != compu :
+    elif human_choice != compu :
         print("enter the valid choice !")
         break
 
